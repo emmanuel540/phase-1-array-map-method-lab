@@ -14,3 +14,19 @@ const tutorials = [
 const titleCased = () => {
   return tutorials
 }
+function titleCased(){
+  return tutorials.map(function (tutorial) {
+    return tutorial
+    .split(" ")
+    .map(function (word) {
+      return String.charAt(0).toUpperCase()+String.slice(1);
+    })
+    const modifiedString = capitalized.join(" ");
+    tutorialsCapitalized.push(modifiedString);
+    console.log(modifiedString);
+  });
+  return.tutorialCapitalized;
+  }
+
+
+
